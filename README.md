@@ -145,13 +145,13 @@ graph TD
     P -->|No| A
     P -->|Yes| Q[COMPLETE]
 
-    %% STATE LABELS
-    classDef assignState fill:#e1f5fe
-    classDef chooseState fill:#f3e5f5
-    classDef foreachState fill:#e8f5e8
-    classDef functionState fill:#fff3e0
-    classDef varsState fill:#fce4ec
-    classDef startEnd fill:#f5f5f5
+    %% STATE LABELS WITH BETTER TEXT CONTRAST
+    classDef assignState fill:#e1f5fe,stroke:#01579b,stroke-width:2px,color:#000000
+    classDef chooseState fill:#f3e5f5,stroke:#4a148c,stroke-width:2px,color:#000000
+    classDef foreachState fill:#e8f5e8,stroke:#1b5e20,stroke-width:2px,color:#000000
+    classDef functionState fill:#fff3e0,stroke:#e65100,stroke-width:2px,color:#000000
+    classDef varsState fill:#fce4ec,stroke:#880e4f,stroke-width:2px,color:#000000
+    classDef startEnd fill:#f5f5f5,stroke:#424242,stroke-width:3px,color:#000000
     
     class F,F1,F2,F3,F4,F5 assignState
     class G,G1,G2,G3,G4,G5,G6,G7 chooseState
